@@ -2,16 +2,16 @@
 
 Repository ini berisi implementasi dan eksperimen **socket programming / HTTP request** menggunakan topologi **3 laptop**:
 - **Laptop A** sebagai **Web Server**
-- **Laptop B** sebagai **Proxy Server** + menjalankan **Wireshark**
+- **Laptop B** sebagai **Proxy Server**
 - **Laptop C** sebagai **Client**
 
 ---
 
 ## 🧭 Topologi & Pembagian Peran Laptop
 
-### 1) Kelompok dengan 3 Anggota (Utama)
+### 1) Kelompok dengan 3 Anggota
 - **Laptop A** → Web Server  
-- **Laptop B** → Proxy Server + Menyalakan Wireshark  
+- **Laptop B** → Proxy Server
 - **Laptop C** → Client  
 
 Berikut ilustrasi alur komunikasinya:
@@ -33,16 +33,18 @@ Berikut ilustrasi alur komunikasinya:
 ---
 
 ## 📂 Struktur Folder
-- `code/` → source code (client / proxy / server)
-- `img/` → gambar dokumentasi (termasuk topologi)
+- `code/` → source code (client, proxy, server)
+- `img/` → gambar dokumentasi
 - `QoS/` → hasil analisis QoS (delay, throughput, packet loss, dsb)
-- `static/` → file pendukung (opsional)
+- `static/` → file HTML sederhana yang digunakan untuk pengujian web server
 - `wireshark/` → file capture Wireshark (`.pcapng`) dan hasil analisis
 - `received_page.html` → contoh halaman/output yang diterima client (jika digunakan)
 
 ---
 
 ## ✅ Tools yang Digunakan
-- Wireshark
-- Bahasa pemrograman sesuai implementasi (Python / C / Java)
-- CMD / Terminal
+1.	Laptop (sesuai dengan jumlah anggota kelompok)
+2.	WiFi hotspot (HP) atau router
+3.	Wireshark
+4.	Bahasa Pemrograman Python
+
