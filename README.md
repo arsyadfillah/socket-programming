@@ -1,4 +1,4 @@
-# Socket Programming + Proxy + Wireshark (QoS)
+# Socket Programming
 
 Repository ini berisi implementasi dan eksperimen **socket programming / HTTP request** menggunakan topologi **3 laptop**:
 - **Laptop A** sebagai **Web Server**
