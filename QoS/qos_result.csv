@@ -1,0 +1,17 @@
+﻿QoS Test Results
+
+SUMMARY METRICS
+Metric,Value,Unit
+Packets Sent,1,packets
+Packets Received,1,packets
+Packet Loss,0.00,%
+Average Latency (RTT),78.1705,ms
+Minimum Latency,78.1705,ms
+Maximum Latency,78.1705,ms
+Jitter (avg |Δdelay|),0.0000,ms
+Throughput (payload-based),52398.26,bps
+Test Duration,0.0782,seconds
+
+DETAILED LATENCY PER PACKET
+Packet No.,Latency (ms)
+1,78.1705
