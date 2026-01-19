@@ -38,7 +38,7 @@ Berikut ilustrasi alur komunikasinya:
 - `QoS/` → hasil analisis QoS (delay, throughput, packet loss, dsb)
 - `static/` → file HTML sederhana yang digunakan untuk pengujian web server
 - `wireshark/` → file capture Wireshark (`.pcapng`) dan hasil analisis
-- `received_page.html` → contoh halaman/output yang diterima client (jika digunakan)
+- `received_page.html` → contoh halaman/output yang diterima client
 
 ---
 
